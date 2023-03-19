@@ -1,0 +1,24 @@
+{
+    "name": "user/package-test-example",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\PackageTestExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "user",
+            "email": "user@user.user"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Bay13/package-test.git"
+        }
+    ],
+    "require": {
+        "user/package-test": "1.*"
+    }
+}
